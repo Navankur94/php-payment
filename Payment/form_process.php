@@ -1,10 +1,10 @@
 <?php 
 if(!isset($_POST['firstname'])){header("location: pay.php");}
 // Change the Merchant key here as provided by Payumoney
-$MERCHANT_KEY = "G4bOn3q1";
+$MERCHANT_KEY = "";
 
 // Change the Merchant Salt as provided by Payumoney
-$SALT = "D4MI2wpbzk";
+$SALT = "";
 
 
 	$firstname =$_POST['firstname'];
